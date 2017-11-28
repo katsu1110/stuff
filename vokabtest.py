@@ -12,7 +12,11 @@ class Vokab:
     '''python3 class to print a random word from a list (learning German)'''
   
     def __init__(self):
-        self.wortlist = ['Bauklötze','arglos','verstecken','werfen',]
+        self.wortlist = ['Bauklötze','arglos','verstecken','werfen','Beziehung',
+                         'Erziehung','hauptsächlich','bereuen','entlang','hüpfen',
+                         'Zeitstahl','lila oder violett','beitreten','peinlich',
+                         'schwul/lesbisch','beschweren','Gerechitigkeit','Zweifel',
+                         'retten','Das Opfer','großartig','erschaffen','entführen']
         
     def entfernen(self, w):
         self.wortlist.remove(w)
@@ -20,6 +24,6 @@ class Vokab:
     def dazugeben(self, w):
         self.wortlist.append(w)
         
-    def test(self):
+    def pruefen(self):
         print(choice(self.wortlist))
         
