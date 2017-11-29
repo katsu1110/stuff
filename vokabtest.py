@@ -16,7 +16,9 @@ class Vokab:
                          'Erziehung','hauptsächlich','bereuen','entlang','hüpfen',
                          'Zeitstahl','lila oder violett','beitreten','peinlich',
                          'schwul/lesbisch','beschweren','Gerechitigkeit','Zweifel',
-                         'retten','Das Opfer','großartig','erschaffen','entführen']
+                         'retten','Das Opfer','großartig','erschaffen','entführen',
+                         'spinn nicht rum','beschwören','Der Neid','beneiden',
+                         'auslösen','aufgeben','Der Schaden']
         
     def entfernen(self, w):
         self.wortlist.remove(w)
