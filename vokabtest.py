@@ -18,7 +18,8 @@ class Vokab:
                          'schwul/lesbisch','beschweren','Gerechitigkeit','Zweifel',
                          'retten','Das Opfer','großartig','erschaffen','entführen',
                          'spinn nicht rum','beschwören','Der Neid','beneiden',
-                         'auslösen','aufgeben','Der Schaden']
+                         'auslösen','aufgeben','Der Schaden','Es hat sich erledigt',
+                         'gemütlich']
         
     def entfernen(self, w):
         self.wortlist.remove(w)
