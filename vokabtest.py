@@ -19,7 +19,7 @@ class Vokab:
                          'retten','Das Opfer','großartig','erschaffen','entführen',
                          'spinn nicht rum','beschwören','Der Neid','beneiden',
                          'auslösen','aufgeben','Der Schaden','Es hat sich erledigt',
-                         'gemütlich']
+                         'gemütlich','aufsetzen','begreifen']
         
     def entfernen(self, w):
         self.wortlist.remove(w)
