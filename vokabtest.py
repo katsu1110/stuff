@@ -23,7 +23,7 @@ class Vokab:
                          'Tellerablage','Tellergestell','ungünstig (Bedingungen)','ärgerlich',
                          'nervig','es stellte sich heraus','aufreißen','Stirn','Ausbruch',
                          'erwürgen','Handgelenk','lebendig','beobachten','ausfallen','bloß',
-                         'zurückweisen','ergeben','verzichten','erzählen',]
+                         'zurückweisen','ergeben','verzichten','erzählen','verwenden']
         
     def entfernen(self, w):
         self.wortlist.remove(w)
