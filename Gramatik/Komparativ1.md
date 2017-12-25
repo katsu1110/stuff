@@ -1,4 +1,4 @@
-# Der Komparativ & der Superlativ
+# Der Komparativ
 
 ## Der Komparativ
 - schnell --> schneller --> schnellst
@@ -42,5 +42,3 @@
     **Ich habe den Schläger billiger gekauft als du.**
 14. Sie ist viel jünger als er.
 15. Wir möchten noch ~~stärker~~ **stärkeren** Kaffee trinken.
-
-## Der Superlativ
