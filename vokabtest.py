@@ -10,7 +10,7 @@ from random import choice
 # Vokabtest
 class Vokab:
     '''python3 class to print a random word from a list (learning German)'''
-  
+
     def __init__(self):
         self.wortlist = ['Bauklötze','arglos','verstecken','werfen','Beziehung',
                          'Erziehung','hauptsächlich','bereuen','entlang','hüpfen',
@@ -23,14 +23,14 @@ class Vokab:
                          'Tellerablage','Tellergestell','ungünstig (Bedingungen)','ärgerlich',
                          'nervig','es stellte sich heraus','aufreißen','Stirn','Ausbruch',
                          'erwürgen','Handgelenk','lebendig','beobachten','ausfallen','bloß',
-                         'zurückweisen','ergeben','verzichten','erzählen','verwenden']
-        
+                         'zurückweisen','ergeben','verzichten','erzählen','verwenden','ablenken',
+                         'Wohnungsgeber','Eigentümer','Verwaltung','beauftragen']
+
     def entfernen(self, w):
         self.wortlist.remove(w)
-        
+
     def dazugeben(self, w):
         self.wortlist.append(w)
-        
+
     def pruefen(self):
         print(choice(self.wortlist))
-        
