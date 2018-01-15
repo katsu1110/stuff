@@ -19,12 +19,14 @@ class Vokab:
                          'retten','Das Opfer','großartig','erschaffen','entführen',
                          'spinn nicht rum','beschwören','Der Neid','beneiden',
                          'auslösen','aufgeben','Der Schaden','Es hat sich erledigt',
-                         'gemütlich','aufsetzen','begreifen','allerdings','Duschschlauch',
-                         'Tellerablage','Tellergestell','ungünstig (Bedingungen)','ärgerlich',
-                         'nervig','es stellte sich heraus','aufreißen','Stirn','Ausbruch',
-                         'erwürgen','Handgelenk','lebendig','beobachten','ausfallen','bloß',
-                         'zurückweisen','ergeben','verzichten','erzählen','verwenden','ablenken',
-                         'Wohnungsgeber','Eigentümer','Verwaltung','beauftragen']
+                         'gemütlich','aufsetzen','begreifen','allerdings',
+                         'Duschschlauch','Tellerablage','Tellergestell',
+                         'ungünstig (Bedingungen)','ärgerlich','nervig',
+                         'es stellte sich heraus','aufreißen','Stirn','Ausbruch',
+                         'erwürgen','Handgelenk','lebendig','beobachten',
+                         'ausfallen','bloß','zurückweisen','ergeben','verzichten',
+                         'erzählen','verwenden','ablenken','Wohnungsgeber',
+                         'Eigentümer','Verwaltung','beauftragen','Überanstrenge dich nicht']
 
     def entfernen(self, w):
         self.wortlist.remove(w)
