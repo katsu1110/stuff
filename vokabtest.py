@@ -26,7 +26,8 @@ class Vokab:
                          'erwürgen','Handgelenk','lebendig','beobachten',
                          'ausfallen','bloß','zurückweisen','ergeben','verzichten',
                          'erzählen','verwenden','ablenken','Wohnungsgeber',
-                         'Eigentümer','Verwaltung','beauftragen','Überanstrenge dich nicht']
+                         'Eigentümer','Verwaltung','beauftragen','Überanstrenge dich nicht',
+                         'sobald']
 
     def entfernen(self, w):
         self.wortlist.remove(w)
