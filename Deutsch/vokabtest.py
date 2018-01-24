@@ -27,7 +27,7 @@ class Vokab:
                          'ausfallen','bloß','zurückweisen','ergeben','verzichten',
                          'erzählen','verwenden','ablenken','Wohnungsgeber',
                          'Eigentümer','Verwaltung','beauftragen','Überanstrenge dich nicht',
-                         'sobald']
+                         'sobald','Kästchen']
 
     def entfernen(self, w):
         self.wortlist.remove(w)
