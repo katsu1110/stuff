@@ -49,10 +49,17 @@ CREATE TABLE exercise_logs
 INSERT INTO exercise_logs(type, minutes, calories, heart_rate) VALUES ("biking", 30, 100, 105);
 INSERT INTO exercise_logs(type, minutes, calories, heart_rate) VALUES ("biking", 10, 30, 105);
 INSERT INTO exercise_logs(type, minutes, calories, heart_rate) VALUES ("dancing", 15, 200, 120);
+INSERT INTO exercise_logs(type, minutes, calories, heart_rate) VALUES ("tree climbing", 30, 70, 90);
+INSERT INTO exercise_logs(type, minutes, calories, heart_rate) VALUES ("tree climbing", 25, 72, 80);
+INSERT INTO exercise_logs(type, minutes, calories, heart_rate) VALUES ("rowing", 30, 70, 90);
+INSERT INTO exercise_logs(type, minutes, calories, heart_rate) VALUES ("hiking", 60, 80, 85);
 
 SELECT * FROM exercise_logs;
 SELECT * FROM exercise_logs WHERE calories > 50 ORDER BY calories;
 SELECT * FROM exercise_logs WHERE calories > 50 AND minutes < 30;
 SELECT * FROM exercise_logs WHERE calories > 50 OR heart_rate > 100;
+SELECT * FROM exercise_logs WHERE type = "biking" OR type = "hiking";
+SELECT * FROM exercise_logs WHERE type IN ("biking", "hiking", "tree climbing", "rowing");
+SELECT * FROM exercise_logs WHERE type NOT IN ("biking", "hiking", "tree climbing", "rowing");
 
 '''
